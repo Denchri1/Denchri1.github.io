@@ -22,7 +22,7 @@
     padding-left: 10px;
 }
 
-.title a{
+.title h1{
     background: linear-gradient(to right, rgba(255,77,0,1),rgba(123,255,0,1));
     font-size: xx-large;
     text-decoration: none;
@@ -30,6 +30,10 @@
     background-clip: text;
     color: transparent;
     padding-left: 10px;
+}
+
+.title a{
+    text-decoration: none;
 }
 
 ul{
