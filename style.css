@@ -22,9 +22,10 @@
     padding-left: 10px;
 }
 
-.title h1{
+.title a{
     background: linear-gradient(to right, rgba(255,77,0,1),rgba(123,255,0,1));
     font-size: xx-large;
+    text-decoration: none;
     font-weight: bolder;
     background-clip: text;
     color: transparent;
