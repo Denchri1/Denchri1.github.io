@@ -3,38 +3,43 @@
     scale: 1;
 }
 
-.body{
+body{
     background-color: rgba(190,190,190,1);
+    align-items: center;
+    justify-content: center;
 }
 
 .titleBar{
     background-color: rgba(69,69,69,1);
+    display: flex;
 }
 
 .title{
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .title a{
-    display: inherit;
     text-decoration: none;
 }
 
-.title img{
-    width: 50px;
-    height: 50px;
-    align-self: center;
-    padding-left: 10px;
-}
-
 .title h1{
-    background: linear-gradient(to right, rgba(255,77,0,1),rgba(123,255,0,1));
+    background: linear-gradient(to right, rgba(255,100,0,1),rgba(100,255,0,1));
     font-size: xx-large;
     text-decoration: none;
     font-weight: bolder;
     background-clip: text;
     color: transparent;
-    padding-left: 10px;
+    padding-left: 55px;
+}
+
+.title img{
+    float: left;
+    display: inline;
+    width: 50px;
+    height: 50px;
+    padding-top: 25px;
 }
 
 ul{
@@ -42,15 +47,14 @@ ul{
     display: inline-flex;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: rgba(80,80,80,1);
 }
 
 .nav{
-    display: inline-flex;
-    float: right;
-    padding-right: 10px;
-    padding-top: 20px;
+    padding-top: 10px;
+    position:absolute;
+    right:20%;
+    margin-right: -20%;
 }
 
 li a {
@@ -63,4 +67,28 @@ li a {
 
 .active {
     background-color: rgba(112,0,143,1);
+}
+
+.idk{
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.part{
+    background-color: rgba(112,0,143,1);
+    border-radius: 20px;
+}
+
+.idk h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: #FC0 1px 0 10px;
+    color: #ecec00;
+}
+
+.idk p{
+    text-align: center;
+    padding: 0px 20px 20px 20px;
 }
