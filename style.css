@@ -31,7 +31,7 @@ body{
     font-weight: bolder;
     background-clip: text;
     color: transparent;
-    padding-left: 55px;
+    padding-left: 60px;
 }
 
 .title img{
@@ -40,6 +40,7 @@ body{
     width: 50px;
     height: 50px;
     padding-top: 25px;
+    padding-left: 2%;
 }
 
 ul{
@@ -53,8 +54,7 @@ ul{
 .nav{
     padding-top: 10px;
     position:absolute;
-    right:20%;
-    margin-right: -20%;
+    right: 1%;
 }
 
 li a {
@@ -66,7 +66,7 @@ li a {
 }
 
 .active {
-    background-color: rgba(112,0,143,1);
+    background-color: rebeccapurple;
 }
 
 .idk{
@@ -76,7 +76,7 @@ li a {
 }
 
 .part{
-    background-color: rgba(112,0,143,1);
+    background-color: rebeccapurple;
     border-radius: 20px;
 }
 
@@ -91,4 +91,12 @@ li a {
 .idk p{
     text-align: center;
     padding: 0px 20px 20px 20px;
+}
+
+.learnmore{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    border-radius: 20px;
 }
