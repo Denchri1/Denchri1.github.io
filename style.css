@@ -35,6 +35,7 @@ body{
 }
 
 .title img{
+    border-radius: 100%;
     float: left;
     display: inline;
     width: 50px;
