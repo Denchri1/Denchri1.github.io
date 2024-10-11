@@ -68,35 +68,3 @@ li a {
 .active {
     background-color: rebeccapurple;
 }
-
-.idk{
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-}
-
-.part{
-    background-color: rebeccapurple;
-    border-radius: 20px;
-}
-
-.idk h1{
-    padding-top: 20px;
-    text-align: center;
-    font-size: xx-large;
-    text-shadow: #FC0 1px 0 10px;
-    color: #ecec00;
-}
-
-.idk p{
-    text-align: center;
-    padding: 0px 20px 20px 20px;
-}
-
-.learnmore{
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    background-color: yellow;
-    border-radius: 20px;
-}
