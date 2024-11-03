@@ -1,0 +1,15 @@
+{
+    "name": "CubeSlider2D",
+    "short_name": "CubeSlider2D",
+    "start_url": "cubeslider.html",
+    "display": "fullscreen",
+    "background_color": "#231F20",
+    "theme_color": "#000",
+    "description": "Denchri1 - CubeSlider2D",
+    "icons": [{
+      "src": "TemplateData/icons/unity-logo-dark.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }]
+  }
