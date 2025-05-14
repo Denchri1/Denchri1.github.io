@@ -1,23 +1,21 @@
 *{
     padding: 0;
-    scale: 1;
 }
 
 body{
-    background-color: rgba(190,190,190,1);
-    align-items: center;
-    justify-content: center;
+    background-image: linear-gradient(to bottom right, lime, purple, orange);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .titleBar{
-    background-color: rgba(69,69,69,1);
+    background-color: black;
     display: flex;
+	border-radius: 25px;
 }
 
 .title{
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .title a{
@@ -31,16 +29,16 @@ body{
     font-weight: bolder;
     background-clip: text;
     color: transparent;
-    padding-left: 60px;
+	width: 400px;
 }
 
 .title img{
     float: left;
     display: inline;
-    width: 50px;
-    height: 50px;
-    padding-top: 25px;
-    padding-left: 2%;
+    width: 75px;
+    height: 75px;
+    margin-top: 15px;
+	margin-left: 10px;
 }
 
 ul{
@@ -49,12 +47,13 @@ ul{
     margin: 0;
     padding: 0;
     background-color: rgba(80,80,80,1);
+	border-radius: 25px;
 }
 
 .nav{
     padding-top: 10px;
     position:absolute;
-    right: 1%;
+	right: 2%;
 }
 
 li a {
@@ -67,6 +66,7 @@ li a {
 
 .active {
     background-color: rebeccapurple;
+	border-radius: 25px;
 }
 
 .idk{
@@ -76,8 +76,14 @@ li a {
 }
 
 .part{
-    background-color: rebeccapurple;
-    border-radius: 20px;
+    background-image: linear-gradient(to bottom left, orange, purple, purple, purple, lime);
+    border-radius: 25px;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	margin-top: 20px;
+	width: 75%;
+	margin-left: 12.5%;
 }
 
 .idk h1{
