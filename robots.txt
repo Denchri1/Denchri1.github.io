@@ -2,3 +2,4 @@ Sitemap: https://denchri1.github.io/sitemap.xml
 
 User-agent: *
 Disallow:
+Allow: /
